@@ -11,7 +11,7 @@ python3
 Role Variables
 --------------
 
-```json
+```yaml
 var1
 var2
 complex_var:
