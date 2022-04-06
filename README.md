@@ -11,12 +11,14 @@ python3
 Role Variables
 --------------
 
+```json
 var1
 var2
 complex_var:
   - var3:
     - var4: "data1"
       var5: "data2"
+```
 
 Dependencies
 ------------
