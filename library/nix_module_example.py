@@ -1,6 +1,8 @@
 #!/usr/bin/python
 
 from __future__ import (absolute_import, division, print_function)
+from ansible.module_utils.nix_module_example import AnsibleModuleExample
+
 __metaclass__ = type
 
 DOCUMENTATION = r'''
@@ -107,7 +109,7 @@ def run_module():
     # manipulate or modify the state as needed (this is going to be the
     # part where your module will do what it needs to do)
     result['original_message'] = module.params
-    result['message'] = 'goodbye'
+    result['message'] = AnsibleModuleExample().some_method()
 
     # use whatever logic you need to determine whether or not this module
     # made any modifications to your target
