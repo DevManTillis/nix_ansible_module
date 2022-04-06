@@ -32,7 +32,7 @@ Including an example of how to use your role (for instance, with variables passe
 
     - hosts: servers
       roles:
-         - { role: nix-ansible-module, variables }
+         - { role: nix_ansible_module, variables }
 
 License
 -------
